@@ -4,7 +4,7 @@ canvas.position(800, 70)
 video=createCapture(VIDEO)
 video.size(350, 350)
 posenet=ml5.poseNet(video,modelLoaded)
-posenet.on('poseNet', gotPoses)
+posenet.on('pose', gotPoses)
 }
 
 function draw(){
