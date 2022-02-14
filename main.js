@@ -14,8 +14,8 @@ difference=0
 function draw(){
     background("pink")
     document.getElementById("square_sides").innerHTML="The width & height of a square will be "+difference+"px"
-    fill("aqua")
-    stroke("dark blue")
+    fill("blue")
+    stroke("yellow")
     square(NoseX, NoseY,difference)
 }
 
